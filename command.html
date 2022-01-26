@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Pupil registration</title>
+<link 
+</head>
+<body>
+  <div>
+    <?php
+      if(isset($_post[submit])){
+        echo"pupil registered";
+      ?>
+  </div>
+  <div>
+    <form action="Mary.php" method="post">
+     
+  <div class="container">
+      <h1>Regestration</h1>
+      <p>fill in the correct values</p>
+      <label for="first name"><b>first Name</b></label>
+      <input type="text" name="firstname" required=""><br>
+     <br>
+  <label for="last name"><b>last Name</b></label>
+      <input type="text" name="last Name" required="">  <br>
+    <br> 
+   <label for="firstname"><b>phone number</b></label>
+      <input type="text" name="phone number" required=""><br>  
+      <br>
+  <label for="first name"><b>user code</b></label>
+      <input type="text" name="user code" required=""><br>   
+      <input type="submit" name="submit" value="register">
+  
+   </div>
+</form>
+  </div>
+   
+</body>
+</html>
